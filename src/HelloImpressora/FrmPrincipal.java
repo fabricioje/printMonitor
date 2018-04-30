@@ -21,10 +21,7 @@ import javax.swing.ImageIcon;
  * and open the template in the editor.
  */
 
-/**
- *
- * @author JoãoPedro
- */
+
 public class FrmPrincipal extends javax.swing.JFrame {
 
     /**

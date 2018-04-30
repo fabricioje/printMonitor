@@ -11,10 +11,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-/**
- *
- * @author JoãoPedro
- */
+
 public class Propriedades {
        
             

@@ -9,10 +9,7 @@ import static HelloImpressora.FrmPrincipal.imagemTitulo;
 import java.awt.Toolkit;
 import java.net.URL;
 
-/**
- *
- * @author JoãoPedro
- */
+
 public class FrmSobre extends javax.swing.JFrame {
 
     /**
