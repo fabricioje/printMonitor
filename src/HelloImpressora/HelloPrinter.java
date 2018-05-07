@@ -245,9 +245,9 @@ public class HelloPrinter {
                         + " caplen=" + packet.getCaptureHeader().caplen());
             }
         };
-        /*
+        
         PcapBpfProgram filter = new PcapBpfProgram();
-        String expression = "tcp port 170 or tcp port 80";
+        String expression = "tcp port 9100 and host 192.168.1.173";
         int optimize = 0; // 0 = false
         int netmask = 0xFFFFFF00; // 255.255.255.0
         if (pcap.compile(filter, expression, optimize, netmask) != Pcap.OK) {
@@ -258,7 +258,7 @@ public class HelloPrinter {
             System.err.println(pcap.getErr());
             return;
         }
-         */
+        
 
         // capture first 10 packages
         //pcap.loop(Pcap.LOOP_INFINITE, jpacketHandler, "jNetPcap");
